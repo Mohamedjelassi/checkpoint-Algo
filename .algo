@@ -1,0 +1,29 @@
+
+ 
+ALGORITHM lengthOfTheSentence 
+ VAR 
+    str
+BEGIN 
+    read (str);
+    write (str.length)
+END 
+
+
+ALGORITHM numberOfVowels 
+ VAR 
+    str
+BEGIN 
+    read (str);
+    write (str.match(/[aeiou]/gi).length)
+END 
+
+
+ALGORITHM numberOfWords
+ VAR 
+    str
+BEGIN 
+    read (str);
+    write (str.match(/[ ]/gi).length + 1;)
+END
+
+
